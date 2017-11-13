@@ -1,0 +1,29 @@
+{
+  "name": "todolistapi-hesham-elmasry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heshamelmasry77/todoListApi-hesham-elmasry.git"
+  },
+  "author": "hesham elmasry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heshamelmasry77/todoListApi-hesham-elmasry/issues"
+  },
+  "homepage": "https://github.com/heshamelmasry77/todoListApi-hesham-elmasry#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.1"
+  },
+  "engines": {
+    "node": "6.11.4"
+  }
+}
