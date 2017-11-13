@@ -1,29 +1,27 @@
 {
-  "name": "todolistapi-hesham-elmasry",
+  "name": "heshamelmasry-website-api",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/heshamelmasry77/todoListApi-hesham-elmasry.git"
-  },
-  "author": "hesham elmasry",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/heshamelmasry77/todoListApi-hesham-elmasry/issues"
-  },
-  "homepage": "https://github.com/heshamelmasry77/todoListApi-hesham-elmasry#readme",
-  "devDependencies": {
-    "nodemon": "^1.12.1"
-  },
   "dependencies": {
     "express": "^4.16.2",
     "mongoose": "^4.13.1"
   },
-  "engines": {
-    "node": "6.11.4"
-  }
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heshamelmasry77/heshamelmasry-website-api.git"
+  },
+  "author": "hesham elmasry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heshamelmasry77/heshamelmasry-website-api/issues"
+  },
+  "homepage": "https://github.com/heshamelmasry77/heshamelmasry-website-api#readme"
 }

@@ -21,4 +21,4 @@ var ProjectSchema = new Schema({
   }
 });
 
-module.exports = mongoose.model('projects', ProjectSchema);
+module.exports = mongoose.model('Projects', ProjectSchema);

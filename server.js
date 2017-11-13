@@ -1,14 +1,13 @@
 var express = require('express'),
   app = express(),
-  port = process.env.PORT || 3004,
+  port = process.env.PORT || 3008,
   mongoose = require('mongoose'),
   Project = require('./api/models/projectListModel'), //created model loading here
   bodyParser = require('body-parser');
 //
 // // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
-// mongoose.connect('mongodb://localhost/Tododb');
-//
+
 
 if (process.env.hasOwnProperty('MONGODB_URI')) {
   var db_string = process.env.MONGODB_URI;
@@ -39,7 +38,7 @@ routes(app); //register the route
 app.listen(port);
 
 
-console.log('todo list RESTful API server started on: ' + port);
+console.log('heshamelmasry website RESTful API server started on: ' + port);
 
 // Adding a middleware
 app.use(function(req, res) {
