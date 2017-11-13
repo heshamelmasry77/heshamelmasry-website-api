@@ -12,7 +12,7 @@ mongoose.Promise = global.Promise;
 if (process.env.hasOwnProperty('MONGODB_URI')) {
   var db_string = process.env.MONGODB_URI;
 } else {
-  db_string = 'mongodb://localhost:27017/Tododb';
+  db_string = 'mongodb://localhost:27017/heshamelmasryWebsite';
   mongoose.set('debug', true);
 }
 
