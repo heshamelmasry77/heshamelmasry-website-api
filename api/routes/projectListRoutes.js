@@ -4,7 +4,7 @@ module.exports = function(app) {
 
   // projectList Routes
   app.route('/projects')
-  .get(projectList.list_all_projects;
+  .get(projectList.list_all_projects);
   // .post(projectList.create_a_project);
 
 
