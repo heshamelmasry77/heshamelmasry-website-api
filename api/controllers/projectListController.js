@@ -15,15 +15,15 @@ exports.list_all_projects = function(req, res) {
 
 
 //
-// exports.create_a_task = function(req, res) {
-//   var new_task = new Task(req.body);
-//   new_task.save(function(err, task) {
+// exports.create_a_project = function(req, res) {
+//   var new_project = new Project(req.body);
+//   new_project.save(function(err, project) {
 //     if (err)
 //       res.send(err);
-//     res.json(task);
+//     res.json(project);
 //   });
 // };
-//
+
 
 exports.read_a_project = function(req, res) {
   Project.findById(req.params.projectId, function(err, project) {
