@@ -8,6 +8,14 @@ var ProjectSchema = new Schema({
     type: String,
     required: 'Kindly enter the name of the project'
   },
+  description: {
+    type: String,
+    required: 'Kindly enter the description of the project'
+  }
+  ,picture: {
+    type: String,
+    required: 'Kindly enter the picture of the project'
+  },
   Created_date: {
     type: Date,
     default: Date.now
@@ -19,6 +27,7 @@ var ProjectSchema = new Schema({
     }],
     default: ['pending']
   }
+
 });
 
 module.exports = mongoose.model('Projects', ProjectSchema);
