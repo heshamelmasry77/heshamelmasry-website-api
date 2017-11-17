@@ -10,6 +10,9 @@ var ProjectSchema = new Schema({
   description: {
     type: String,
     required: 'Kindly enter the description of the project',
+  }, url: {
+    type: String,
+    required: 'Kindly enter the url of the project',
   },
   about: {
     type: String,
