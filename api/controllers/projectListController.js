@@ -5,12 +5,16 @@ var mongoose = require('mongoose'),
   Project = mongoose.model('Projects');
 
 exports.list_all_projects = function(req, res) {
-  Project.find({}, function(err, project) {
-    if (err)
-      res.send(err);
-    res.json(project);
+  Project.find({}).then(function(projects) {
+    res.send(projects);
+  }).catch(function(error) {
+     // console.error(error);
+    res.status(404).send('Bad Request');
   });
 };
+
+
+
 
 
 
@@ -23,13 +27,22 @@ exports.list_all_projects = function(req, res) {
 //     res.json(project);
 //   });
 // };
-
+//
+//
+// exports.read_a_project = function(req, res) {
+//   Project.findById(req.params.projectId, function(err, project) {
+//     if (err)
+//       res.send(err);
+//     res.json(project);
+//   });
+// };
 
 exports.read_a_project = function(req, res) {
-  Project.findById(req.params.projectId, function(err, project) {
-    if (err)
-      res.send(err);
-    res.json(project);
+  Project.findById(req.params.projectId).then(function(project) {
+    res.send(project);
+  }).catch(function(error) {
+    // console.error(error);
+    res.status(404).send('Bad Request');
   });
 };
 
