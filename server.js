@@ -32,7 +32,7 @@ app.use(bodyParser.json());
 
 
 app.use(function(req, res, next) {
-  var allowedOrigins = ['http://localhost:9000','http://localhost:3000','https://aqueous-refuge-68393.herokuapp.com/','https://www.heshamelmasry.website','http://www.heshamelmasry.website'];
+  var allowedOrigins = ['http://localhost:9000','http://localhost:3000','https://aqueous-refuge-68393.herokuapp.com','https://www.heshamelmasry.website','http://www.heshamelmasry.website'];
   var origin = req.headers.origin;
   if(allowedOrigins.indexOf(origin) > -1){
     res.setHeader('Access-Control-Allow-Origin', origin);
