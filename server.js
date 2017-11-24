@@ -32,7 +32,7 @@ app.use(bodyParser.json());
 
 
 app.use(function(req, res, next) {
-  var allowedOrigins = ['https://sleepy-forest-48646.herokuapp.com','http://localhost:9000','http://localhost:3000','https://aqueous-refuge-68393.herokuapp.com','https://www.heshamelmasry.website','http://www.heshamelmasry.website'];
+  var allowedOrigins = ['https://afternoon-falls-87430.herokuapp.com','http://localhost:9000','http://localhost:3000','https://www.heshamelmasry.website','http://www.heshamelmasry.website'];
   var origin = req.headers.origin;
   if(allowedOrigins.indexOf(origin) > -1){
     res.setHeader('Access-Control-Allow-Origin', origin);
