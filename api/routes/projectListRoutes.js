@@ -4,8 +4,8 @@ module.exports = function(app) {
 
   // projectList Routes
   app.route('/projects')
-  .get(projectList.list_all_projects);
-  // .post(projectList.create_a_project);
+  // .get(projectList.list_all_projects)
+  .post(projectList.create_a_project);
 
 
   app.route('/projects/:projectId')

@@ -18,16 +18,16 @@ exports.list_all_projects = function(req, res) {
 
 
 
-//
-// exports.create_a_project = function(req, res) {
-//   var new_project = new Project(req.body);
-//   new_project.save(function(err, project) {
-//     if (err)
-//       res.send(err);
-//     res.json(project);
-//   });
-// };
-//
+
+exports.create_a_project = function(req, res) {
+  var new_project = new Project(req.body);
+  new_project.save(function(err, project) {
+    if (err)
+      res.send(err);
+    res.json(project);
+  });
+};
+
 //
 // exports.read_a_project = function(req, res) {
 //   Project.findById(req.params.projectId, function(err, project) {
