@@ -1,5 +1,6 @@
 'use strict';
 
+var fs = require('fs');
 
 var mongoose = require('mongoose'),
   Project = mongoose.model('Projects');
@@ -15,17 +16,40 @@ exports.list_all_projects = function(req, res) {
 
 
 
+//
+// function(req, res, next) {
+//   console.log(req.files);
+//
+//   if(req.files){
+//     req.files.forEach(function(file) {
+//       console.log(file);
+//       // fs.rename(file.path, )
+//     })
+//   }
+// }
 
 
-
-
-exports.create_a_project = function(req, res) {
-  var new_project = new Project(req.body);
-  new_project.save(function(err, project) {
-    if (err)
-      res.send(err);
-    res.json(project);
-  });
+exports.create_a_project = function(req, res, next) {
+  
+  
+  // console.log(req.files);
+  
+  if(req.files){
+    req.files.forEach(function(file) {
+      // console.log(file.path);
+  
+      var new_project = new Project(req.body);
+      new_project.picture.data = fs.readFileSync(file.path);
+      new_project.picture.contentType = 'image/png';
+  
+      new_project.save(function(err, project) {
+        if (err)
+          res.send(err);
+        res.json(project);
+      });
+    })
+  }
+  
 };
 
 //

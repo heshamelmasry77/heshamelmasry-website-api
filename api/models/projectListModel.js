@@ -5,34 +5,36 @@ var Schema = mongoose.Schema;
 var ProjectSchema = new Schema({
   name: {
     type: String,
-    required: 'Kindly enter the name of the project',
+    required: 'Kindly enter the name of the project'
   },
   description: {
     type: String,
-    required: 'Kindly enter the description of the project',
-  }, url: {
+    required: 'Kindly enter the description of the project'
+  },
+  url: {
     type: String,
-    required: 'Kindly enter the url of the project',
+    required: 'Kindly enter the url of the project'
   },
   about: {
     type: String,
-    required: 'Kindly enter the about text of the project',
-  }, picture: {
-    type: String,
-    required: 'Kindly enter the picture of the project',
+    required: 'Kindly enter the about text of the project'
+  }
+  ,
+  picture: {
+    data: Buffer, contentType: String
   },
   Created_date: {
     type: Date,
-    default: Date.now,
+    default: Date.now
   },
   status: {
     type: [
       {
         type: String,
-        enum: ['pending', 'ongoing', 'completed'],
+        enum: ['pending', 'ongoing', 'completed']
       }],
-    default: ['pending'],
-  },
+    default: ['pending']
+  }
   
 });
 
