@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="691c0093-a394-43de-824d-663239240343" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/hesham.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/hesham.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/controllers/projectListController.js" afterPath="$PROJECT_DIR$/api/controllers/projectListController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/models/projectListModel.js" afterPath="$PROJECT_DIR$/api/models/projectListModel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/routes/projectListRoutes.js" afterPath="$PROJECT_DIR$/api/routes/projectListRoutes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,8 +21,8 @@
       <file leaf-file-name="projectListModel.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/models/projectListModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            <state relative-caret-position="242">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -48,11 +43,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1512243273639" expanded="true" signature="0:104395" ph="{&quot;name&quot;: &quot;heshamelmasry-website-api&quot;...}" />
-                <marker date="1512243273639" expanded="true" signature="125:104393" ph="{...}" />
-                <marker date="1512243273639" expanded="true" signature="104206:104389" ph="{&quot;version&quot;: &quot;2.1.2&quot;...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,8 +51,8 @@
       <file leaf-file-name="projectListController.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/controllers/projectListController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+            <state relative-caret-position="288">
+              <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -70,7 +61,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
+            <state relative-caret-position="4642">
               <caret line="211" column="64" lean-forward="false" selection-start-line="211" selection-start-column="64" selection-end-line="211" selection-end-column="64" />
               <folding />
             </state>
@@ -80,8 +71,8 @@
       <file leaf-file-name="projectListRoutes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/routes/projectListRoutes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            <state relative-caret-position="352">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -100,8 +91,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-338">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -110,16 +101,9 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="176">
               <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-              <folding>
-                <marker date="1512243273573" expanded="true" signature="0:749" ph="{&quot;name&quot;: &quot;heshamelmasry-website-api&quot;...}" />
-                <marker date="1512243273573" expanded="true" signature="125:228" ph="{&quot;cors&quot;: &quot;^2.8.4&quot;...}" />
-                <marker date="1512243273573" expanded="true" signature="251:281" ph="{&quot;nodemon&quot;: &quot;^1.12.1&quot;...}" />
-                <marker date="1512243273573" expanded="true" signature="296:390" ph="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
-                <marker date="1512243273573" expanded="true" signature="408:514" ph="{&quot;type&quot;: &quot;git&quot;...}" />
-                <marker date="1512243273573" expanded="true" signature="576:662" ph="{&quot;url&quot;: &quot;https://github.com/heshamelmasry77/heshamelmasry-website-api/issues&quot;...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -158,11 +142,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="248" />
-    <option name="y" value="70" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="1280" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="717" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -196,6 +180,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,8 +216,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,42 +274,34 @@
       <workItem from="1511906736995" duration="485000" />
       <workItem from="1511941510936" duration="9853000" />
       <workItem from="1512027734758" duration="980000" />
+      <workItem from="1512465314690" duration="1532000" />
+      <workItem from="1513170291945" duration="4797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60609000" />
+    <option name="totallyTimeSpent" value="67746000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="248" y="70" width="1280" height="717" extended-state="1" />
+    <frame x="1280" y="0" width="1600" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3169182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20139329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.286578" sideWeight="0.50474983" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.49525017" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4533762" sideWeight="0.49525017" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25272068" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28778717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25269157" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,11 +321,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512243273639" expanded="true" signature="0:104395" ph="{&quot;name&quot;: &quot;heshamelmasry-website-api&quot;...}" />
-            <marker date="1512243273639" expanded="true" signature="125:104393" ph="{...}" />
-            <marker date="1512243273639" expanded="true" signature="104206:104389" ph="{&quot;version&quot;: &quot;2.1.2&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -389,14 +361,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <marker date="1512243273573" expanded="true" signature="0:749" ph="{&quot;name&quot;: &quot;heshamelmasry-website-api&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="125:228" ph="{&quot;cors&quot;: &quot;^2.8.4&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="251:281" ph="{&quot;nodemon&quot;: &quot;^1.12.1&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="296:390" ph="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="408:514" ph="{&quot;type&quot;: &quot;git&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="576:662" ph="{&quot;url&quot;: &quot;https://github.com/heshamelmasry77/heshamelmasry-website-api/issues&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -420,11 +385,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512243273639" expanded="true" signature="0:104395" ph="{&quot;name&quot;: &quot;heshamelmasry-website-api&quot;...}" />
-            <marker date="1512243273639" expanded="true" signature="125:104393" ph="{...}" />
-            <marker date="1512243273639" expanded="true" signature="104206:104389" ph="{&quot;version&quot;: &quot;2.1.2&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -456,14 +417,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <marker date="1512243273573" expanded="true" signature="0:749" ph="{&quot;name&quot;: &quot;heshamelmasry-website-api&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="125:228" ph="{&quot;cors&quot;: &quot;^2.8.4&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="251:281" ph="{&quot;nodemon&quot;: &quot;^1.12.1&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="296:390" ph="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="408:514" ph="{&quot;type&quot;: &quot;git&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="576:662" ph="{&quot;url&quot;: &quot;https://github.com/heshamelmasry77/heshamelmasry-website-api/issues&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -495,11 +449,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512243273639" expanded="true" signature="0:104395" ph="{&quot;name&quot;: &quot;heshamelmasry-website-api&quot;...}" />
-            <marker date="1512243273639" expanded="true" signature="125:104393" ph="{...}" />
-            <marker date="1512243273639" expanded="true" signature="104206:104389" ph="{&quot;version&quot;: &quot;2.1.2&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -531,14 +481,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <marker date="1512243273573" expanded="true" signature="0:749" ph="{&quot;name&quot;: &quot;heshamelmasry-website-api&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="125:228" ph="{&quot;cors&quot;: &quot;^2.8.4&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="251:281" ph="{&quot;nodemon&quot;: &quot;^1.12.1&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="296:390" ph="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="408:514" ph="{&quot;type&quot;: &quot;git&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="576:662" ph="{&quot;url&quot;: &quot;https://github.com/heshamelmasry77/heshamelmasry-website-api/issues&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -570,11 +513,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512243273639" expanded="true" signature="0:104395" ph="{&quot;name&quot;: &quot;heshamelmasry-website-api&quot;...}" />
-            <marker date="1512243273639" expanded="true" signature="125:104393" ph="{...}" />
-            <marker date="1512243273639" expanded="true" signature="104206:104389" ph="{&quot;version&quot;: &quot;2.1.2&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -606,14 +545,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <marker date="1512243273573" expanded="true" signature="0:749" ph="{&quot;name&quot;: &quot;heshamelmasry-website-api&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="125:228" ph="{&quot;cors&quot;: &quot;^2.8.4&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="251:281" ph="{&quot;nodemon&quot;: &quot;^1.12.1&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="296:390" ph="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="408:514" ph="{&quot;type&quot;: &quot;git&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="576:662" ph="{&quot;url&quot;: &quot;https://github.com/heshamelmasry77/heshamelmasry-website-api/issues&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -645,11 +577,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512243273639" expanded="true" signature="0:104395" ph="{&quot;name&quot;: &quot;heshamelmasry-website-api&quot;...}" />
-            <marker date="1512243273639" expanded="true" signature="125:104393" ph="{...}" />
-            <marker date="1512243273639" expanded="true" signature="104206:104389" ph="{&quot;version&quot;: &quot;2.1.2&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -681,14 +609,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <marker date="1512243273573" expanded="true" signature="0:749" ph="{&quot;name&quot;: &quot;heshamelmasry-website-api&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="125:228" ph="{&quot;cors&quot;: &quot;^2.8.4&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="251:281" ph="{&quot;nodemon&quot;: &quot;^1.12.1&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="296:390" ph="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="408:514" ph="{&quot;type&quot;: &quot;git&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="576:662" ph="{&quot;url&quot;: &quot;https://github.com/heshamelmasry77/heshamelmasry-website-api/issues&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -736,11 +657,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512243273639" expanded="true" signature="0:104395" ph="{&quot;name&quot;: &quot;heshamelmasry-website-api&quot;...}" />
-            <marker date="1512243273639" expanded="true" signature="125:104393" ph="{...}" />
-            <marker date="1512243273639" expanded="true" signature="104206:104389" ph="{&quot;version&quot;: &quot;2.1.2&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -760,57 +677,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file:///usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <marker date="1512243273573" expanded="true" signature="0:749" ph="{&quot;name&quot;: &quot;heshamelmasry-website-api&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="125:228" ph="{&quot;cors&quot;: &quot;^2.8.4&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="251:281" ph="{&quot;nodemon&quot;: &quot;^1.12.1&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="296:390" ph="{&quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="408:514" ph="{&quot;type&quot;: &quot;git&quot;...}" />
-            <marker date="1512243273573" expanded="true" signature="576:662" ph="{&quot;url&quot;: &quot;https://github.com/heshamelmasry77/heshamelmasry-website-api/issues&quot;...}" />
-          </folding>
+        <state relative-caret-position="4642">
+          <caret line="211" column="64" lean-forward="false" selection-start-line="211" selection-start-column="64" selection-end-line="211" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/node_modules/babel-cli/node_modules/babel-core/lib/transformation/file/index.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="211" column="64" lean-forward="false" selection-start-line="211" selection-start-column="64" selection-end-line="211" selection-end-column="64" />
+        <state relative-caret-position="176">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-338">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/routes/projectListRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        <state relative-caret-position="374">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/models/projectListModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        <state relative-caret-position="242">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/routes/projectListRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/controllers/projectListController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        <state relative-caret-position="288">
+          <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
           <folding />
         </state>
       </provider>

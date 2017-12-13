@@ -8,7 +8,11 @@ module.exports = function(app) {
   // projectList Routes
   app.route('/projects')
   .get(projectList.list_all_projects)
-      .post(upload.any(), projectList.create_a_project);
+  .post(upload.any(), projectList.create_a_project);
   
-  app.route('/projects/:projectId').get(projectList.read_a_project);
+  app.route('/projects/:projectId')
+  .get(projectList.read_a_project);
+  
+  app.route('/projects/name/:projectName')
+  .get(projectList.read_a_project_by_name);
 };

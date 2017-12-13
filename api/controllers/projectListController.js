@@ -3,18 +3,16 @@
 var fs = require('fs');
 
 var mongoose = require('mongoose'),
-  Project = mongoose.model('Projects');
+    Project = mongoose.model('Projects');
 
 exports.list_all_projects = function(req, res) {
   Project.find({}).then(function(projects) {
     res.send(projects);
   }).catch(function(error) {
-     // console.error(error);
+    // console.error(error);
     res.status(404).send('Bad Request');
   });
 };
-
-
 
 //
 // function(req, res, next) {
@@ -28,26 +26,28 @@ exports.list_all_projects = function(req, res) {
 //   }
 // }
 
-
 exports.create_a_project = function(req, res, next) {
   
-  
-  // console.log(req.files);
-  
-  if(req.files){
+  if (req.files) {
     req.files.forEach(function(file) {
-      // console.log(file.path);
-  
+      req.body.name = req.body.name.replace(/\s+/g,"-");
       var new_project = new Project(req.body);
       new_project.picture.data = fs.readFileSync(file.path);
       new_project.picture.contentType = 'image/png';
-  
       new_project.save(function(err, project) {
         if (err)
           res.send(err);
         res.json(project);
       });
-    })
+    });
+  } else {
+    req.body.name = req.body.name.replace(/\s+/g,"-");
+    var new_project = new Project(req.body);
+    new_project.save(function(err, project) {
+      if (err)
+        res.send(err);
+      res.json(project);
+    });
   }
   
 };
@@ -62,10 +62,19 @@ exports.create_a_project = function(req, res, next) {
 // };
 
 exports.read_a_project = function(req, res) {
+  req.params.projectId = '';
   Project.findById(req.params.projectId).then(function(project) {
     res.send(project);
-  }).catch(function(error) {
-    // console.error(error);
+  }).catch(function() {
+    res.status(404).send('Bad Request');
+  });
+};
+
+exports.read_a_project_by_name = function(req, res) {
+  Project.find({name:req.params.projectName}).then(function(project) {
+    project[0].name.replace(/-/g, " ");
+    res.send(project);
+  }).catch(function() {
     res.status(404).send('Bad Request');
   });
 };
