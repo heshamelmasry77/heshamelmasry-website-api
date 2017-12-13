@@ -31,6 +31,7 @@ exports.create_a_project = function(req, res, next) {
   if (req.files) {
     req.files.forEach(function(file) {
       req.body.name = req.body.name.replace(/\s+/g,"-");
+      req.body.name.toLowerCase();
       var new_project = new Project(req.body);
       new_project.picture.data = fs.readFileSync(file.path);
       new_project.picture.contentType = 'image/png';
@@ -42,6 +43,7 @@ exports.create_a_project = function(req, res, next) {
     });
   } else {
     req.body.name = req.body.name.replace(/\s+/g,"-");
+    req.body.name.toLowerCase();
     var new_project = new Project(req.body);
     new_project.save(function(err, project) {
       if (err)
