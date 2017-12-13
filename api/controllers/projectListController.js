@@ -73,7 +73,7 @@ exports.read_a_project = function(req, res) {
 
 exports.read_a_project_by_name = function(req, res) {
   Project.find({name:req.params.projectName}).then(function(project) {
-    project[0].name.replace(/-/g, " ");
+    project[0].name = project[0].name.replace(/-/g, " ");
     project[0].name.toLowerCase();
     res.send(project);
   }).catch(function() {
