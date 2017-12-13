@@ -62,7 +62,6 @@ exports.create_a_project = function(req, res, next) {
 // };
 
 exports.read_a_project = function(req, res) {
-  req.params.projectId = '';
   Project.findById(req.params.projectId).then(function(project) {
     res.send(project);
   }).catch(function() {

@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="691c0093-a394-43de-824d-663239240343" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/controllers/projectListController.js" afterPath="$PROJECT_DIR$/api/controllers/projectListController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/routes/projectListRoutes.js" afterPath="$PROJECT_DIR$/api/routes/projectListRoutes.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,8 +49,8 @@
       <file leaf-file-name="projectListController.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/controllers/projectListController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+            <state relative-caret-position="190">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -275,12 +273,12 @@
       <workItem from="1511941510936" duration="9853000" />
       <workItem from="1512027734758" duration="980000" />
       <workItem from="1512465314690" duration="1532000" />
-      <workItem from="1513170291945" duration="4797000" />
+      <workItem from="1513170291945" duration="5100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67746000" />
+    <option name="totallyTimeSpent" value="68049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1600" height="900" extended-state="6" />
@@ -719,8 +717,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/controllers/projectListController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+        <state relative-caret-position="190">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>
