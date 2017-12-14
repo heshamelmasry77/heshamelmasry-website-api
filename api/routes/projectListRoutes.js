@@ -11,7 +11,8 @@ module.exports = function(app) {
   .post(upload.any(), projectList.create_a_project);
   
   app.route('/projects/:projectId')
-  .get(projectList.read_a_project);
+  .get(projectList.read_a_project)
+  .post(projectList.update_a_project);
   
   app.route('/projects/name/:projectName')
   .get(projectList.read_a_project_by_name);

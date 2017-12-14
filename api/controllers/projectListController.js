@@ -72,6 +72,7 @@ exports.read_a_project = function(req, res) {
 };
 
 exports.read_a_project_by_name = function(req, res) {
+  /** @namespace req.params.projectName */
   Project.find({name:req.params.projectName}).then(function(project) {
     project[0].name = project[0].name.replace(/-/g, " ");
     project[0].name.toLowerCase();
@@ -81,14 +82,15 @@ exports.read_a_project_by_name = function(req, res) {
   });
 };
 
-//
-// exports.update_a_task = function(req, res) {
-//   Task.findOneAndUpdate({_id: req.params.taskId}, req.body, {new: true}, function(err, task) {
-//     if (err)
-//       res.send(err);
-//     res.json(task);
-//   });
-// };
+
+exports.update_a_project = function(req, res) {
+  /** @namespace req.params.projectId */
+  Project.findOneAndUpdate({_id: req.params.projectId}, req.body, {new: true}, function(err, project) {
+    if (err)
+      res.send(err);
+    res.json(project);
+  });
+};
 
 //
 // exports.delete_a_task = function(req, res) {
